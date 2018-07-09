@@ -1,0 +1,27 @@
+{
+  "name": "bs-react-datepicker",
+  "version": "0.0.1",
+  "description": "reasonml bindings for react-datepicker",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "keywords": [
+    "reasonml",
+    "binding",
+    "bucklescript",
+    "react"
+  ],
+  "author": "svengiebel",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^3.1.5"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "react-datepicker": "^1.5.0",
+    "reason-react": "^0.4.2"
+  }
+}
